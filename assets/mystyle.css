@@ -1,0 +1,49 @@
+.color-footer {
+    background-color: #333a40;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.btt-post {
+    margin-right: 1000px;
+}
+
+.img-profile {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+.rigagrigia {
+    background-color: #f2f3f5 ;
+}
+
+.box {
+    margin-top: 60px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container-row {
+    flex-direction: row;
+}
+
+.box-lingue {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+    .margin-img-text {
+        margin-top: 10px;
+    }
+}
